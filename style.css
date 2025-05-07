@@ -114,6 +114,12 @@ h2 {
     background-color: #f1f1f1;
 }
 
+#banner {
+    max-width: 600px;
+    transition: opacity 1s ease-in-out;
+    opacity: 1;
+  }
+
 .img-banner{
     height: 380px;
     padding-left: 100px;
@@ -171,4 +177,18 @@ h3 {
 p {
     color: #f1f1f1;
     padding: 0PX 0PX 25PX 0PX;
+}
+
+.sobre-nos{
+    background-color: #95c9e2;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sobre-nos-conteudo {
+    width: 50%;
+
 }
